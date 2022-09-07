@@ -1,6 +1,7 @@
 # Net-practice
 Ce projet a pour but de vous faire découvrir le réseau par des cas pratiques.
 
+-----------------------------------------------------------------------------
 👨‍ My solution and basic explanantion on Net_Practice and networking basics:
 -----------------------------------------------------------------------------
 
@@ -16,3 +17,10 @@ Ce projet a pour but de vous faire découvrir le réseau par des cas pratiques.
 **Binaire	11000000	10101000	01011000	00000011
 
 📈 Ce format fournit un nombre limité d’adresses possibles. Précisément : 232(donc 4.294.967.296) adresses peuvent être attribuées. Cela semble beaucoup, mais ces adresses sont utilisées plus vite que vous le ne pensez. Le subnetting a donc été introduit en 1985.
+
+Comprendre les principes de base des adresses et sous-réseaux TCP/IP:
+--------------------------------------------------------------------
+
+Pour configurer correctement TCP/IP, il est nécessaire de comprendre comment les réseaux TCP/IP sont traités et divisés en réseaux et sous-réseaux.
+
+Le succès du protocole TCP/IP en tant que protocole réseau d’Internet est en grande partie dû à sa capacité à connecter des réseaux de différentes tailles et systèmes de différents types. Ces réseaux sont arbitrairement définis en trois classes principales (et quelques autres) ayant des tailles prédéfinies. Chacun d’eux peut être divisé en sous-réseaux plus petits par les administrateurs système. Un masque de sous-réseau est utilisé pour diviser une adresse IP en deux parties. L’une identifie l’hôte (ordinateur), l’autre le réseau auquel il appartient. Pour mieux comprendre le fonctionnement des adresses IP et des masques de sous-réseau, consultez une adresse IP et voyez comment elle est organisée.
