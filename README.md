@@ -5,6 +5,23 @@ Ce projet a pour but de vous faire découvrir le réseau par des cas pratiques.
 👨‍ My solution and basic explanantion on Net_Practice and networking basics:
 -----------------------------------------------------------------------------
 
+----IPV4 and IPV6:
+*******************
+
+The Internet Protocol (IP) is one of the most important communication protocols in the Internet Protocol Suite (IPS), which is used for routing and addressing packets for networking devices such as computers, laptops and fiber switches across a single network or a series of interconnected networks. There are currently two versions of Internet Protocol: IPv4 (IP version 4) and IPv6 (IP version 6). What do IPv4 and IPv6 mean? Which is faster when we are working or gaming? This article will take you to find the answer.
+
+📫 What Is IPv4?
+
+IPv4 is the fourth version of IP, which establishes the rules for computer networks functioning on the principle of packet exchange. It can uniquely identify devices connected to the network through an addressing system. Whenever a device gets access to the Internet (whether it's a switch, PC, or other devices), it is assigned a unique, numerical IP address such as 192.149.252.76 as shown below. The IPv4 uses a 32-bit address scheme allowing to store 2^32 addresses (4.19 billion addresses). The increasing end-users connected to the Internet leads to the exhaustion of IPv4 addresses. That’s also why the new Internet addressing system, IPv6, is being deployed to fulfill the need for more Internet addresses.
+
+📫 What Is IPv6?
+
+IPv6 (Internet Protocol Version 6) was deployed in 1999 concerning that the demand for IP addresses would exceed the available supply. It allows communication and data transfer to take place over a network. IPv6 is a 128-bit IP address which supports 2^128 Internet addresses in total. The use of IPv6 not only solves the problem of limited network addresses resources but also resolves the barriers for multiple access devices to connect to the Internet. An IPv6 address could be written like this: 3ffe:1900:fe21:4545:0000:0000:0000:0000.
+
+=======================================================
+
+
+
 📫 Comme tout réseau informatique, Internet est une connexion entre de nombreux ordinateurs qui communiquent entre eux. Il est depuis longtemps devenu indispensable de diviser l’immense réseau en plusieurs et différents sous-réseaux. Pour comprendre ce qu’est le subnetting et pour savoir pourquoi il a été introduit et enfin apprendre à calculer un masque de sous-réseau, il est tout d’abord important de clarifier quelques bases sur les réseaux informatiques:
 
 📈 Depuis 1981, Internet fonctionne sur la base du protocole Internet (IP) : un protocole réseau qui régule les circuits de distribution des utilisateurs. Pour envoyer un paquet de données dans un réseau, l’expéditeur doit connaître l’adresse IP du destinataire.
