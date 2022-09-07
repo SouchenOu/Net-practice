@@ -18,6 +18,33 @@ Ce projet a pour but de vous faire découvrir le réseau par des cas pratiques.
 
 📈 Ce format fournit un nombre limité d’adresses possibles. Précisément : 232(donc 4.294.967.296) adresses peuvent être attribuées. Cela semble beaucoup, mais ces adresses sont utilisées plus vite que vous le ne pensez. Le subnetting a donc été introduit en 1985.
 
+Un aperçu des différents réseaux informatiques.
+------------------------------------------------
+
+📈. *Personal Area Network (PAN)
+
+Pour permettre l’échange de données des appareils modernes comme notamment les smartphones, tablettes, ordinateurs portables ou les ordinateurs de bureau, ces derniers peuvent être connectés à un réseau adapté. Celui-ci peut être relié sous la forme d’un réseau personnel ou PAN (Personnal Area Network), on parle aussi de réseau domestique.
+
+Pour permettre l’échange de données des appareils modernes comme notamment les smartphones, tablettes, ordinateurs portables ou les ordinateurs de bureau, ces derniers peuvent être connectés à un réseau adapté. Celui-ci peut être relié sous la forme d’un réseau personnel ou PAN (Personnal Area Network), on parle aussi de réseau domestique
+
+📈 *Local Area Network (LAN):
+
+Si plusieurs ordinateurs doivent être réunis sur un réseau, cela se fait généralement sous la forme d’un réseau local ou LAN (acronyme de Local Area Network). Un tel réseau peut relier deux ordinateurs d’une maison ou alors plusieurs centaines d’appareils au sein d’une entreprise.
+
+📈 WLAN (wireless local area network):
+
+réseau local sans fil. En France on utilise aussi couramment le terme de WiFi pour désigner un WLAN. Il n’y a pas vraiment de différences entre ces deux termes, WiFi est simplement une marque déposée de protocoles de communication sans fil.
+
+📈 Metropolitan Area Network (MAN)
+
+Un Metropolitan Area Network (MAN) ou réseau métropolitain, est un réseau de télécommunication à large bande qui relie plusieurs LAN géographiquement à proximité. Il s’agit en règle générale de différentes branches d’une société qui sont reliées à un MAN via des lignes loués.
+
+📈 Wide Area Network (WAN):
+
+Alors que les réseaux métropolitains relient des zones qui se trouvent proches les unes des autres dans des zones rurales ou urbaines, les WAN (Wide Area Network) ou réseaux étendus couvrent des vastes zones géographiques à l’échelle d’un pays ou d’un continent par exemple. En principe, le nombre de réseaux locaux ou d’ordinateurs connectés à un réseau étendu est illimité.
+
+
+
 Comprendre les principes de base des adresses et sous-réseaux TCP/IP:
 --------------------------------------------------------------------
 
