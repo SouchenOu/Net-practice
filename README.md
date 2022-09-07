@@ -82,6 +82,26 @@ La topologie physique du réseau
 Le nombre de réseaux (ou d’hôtes) ne correspond pas aux restrictions du masque de sous-réseau par défaut.
 
 
+Mise en sous-réseau:
+---------------------
 
+Un réseau TCP/IP de classe A, B ou C peut être encore divisé, ou mis en sous-réseau, par un administrateur système. Cela devient nécessaire lorsque vous conciliez le schéma dʼadressage logique de lʼInternet (le monde abstrait des adresses IP et des sous-réseaux) avec les réseaux physiques utilisés dans le monde réel.
+
+Un administrateur système à qui lʼon attribue un bloc dʼadresses IP peut administrer des réseaux qui ne sont pas organisés de façon à permettre lʼutilisation de ces adresses. Par exemple, vous possédez un réseau étendu avec 150 hôtes sur trois réseaux (dans des villes différentes) qui sont connectés par un routeur TCP/IP. Chacun de ces trois réseaux possède 50 hôtes. On vous attribue le réseau de classe C 192.168.123.0. ( A titre dʼillustration, cette adresse provient en fait dʼune plage qui nʼest pas allouée sur Internet). Cela signifie que vous pouvez utiliser les adresses 192.168.123.1 à 192.168.123.254 pour vos 150 hôtes.
+
+Deux adresses qui ne peuvent pas être utilisées dans votre exemple sont 192.168.123.0 et 192.168.123.255, car les adresses binaires dont la partie hôte est composée de tous les uns et de tous les zéros ne sont pas valides. L’adresse zéro n’est pas valide, car elle est utilisée pour désigner un réseau sans spécifier d’hôte. L’adresse 255 (en notation binaire, une adresse hôte composée de tous les uns) est utilisée pour diffuser un message à tous les hôtes dʼun réseau. N’oubliez pas que la première et la dernière adresse d’un réseau ou d’un sous-réseau ne peuvent pas être attribuées à un hôte individuel.
+
+Vous devriez maintenant être en mesure dʼattribuer des adresses IP à 254 hôtes. Cela fonctionne impeccablement si les 150 ordinateurs sont tous sur un seul réseau. Toutefois, vos 150 ordinateurs se trouvent sur trois réseaux physiques distincts. Au lieu de demander plus de blocs dʼadresses pour chaque réseau, vous divisez votre réseau en sous-réseaux, ce qui vous permet dʼutiliser un bloc dʼadresses sur plusieurs réseaux physiques.
+
+Dans ce cas, vous divisez votre réseau en quatre sous-réseaux à l’aide d’un masque de sous-réseau qui élargit l’adresse réseau et réduit la plage possible d’adresses hôtes. En dʼautres termes, vous « empruntez » certains des bits utilisés pour lʼadresse hôte et les utilisez pour la partie réseau de lʼadresse. Le masque de sous-réseau 255.255.255.192 vous donne quatre réseaux de 62 hôtes chacun. Cela fonctionne, car en notation binaire, 255.255.255.192 est égal à 11111111.11111111.1111111.11000000. Les deux premiers chiffres du dernier octet deviennent des adresses réseau. Vous obtenez donc les réseaux supplémentaires 00000000 (0), 01000000 (64), 10000000 (128) et 11000000 (192). (Certains administrateurs nʼutiliseront que deux des sous-réseaux en employant 255.255.255.192 comme masque de sous-réseau. Pour plus d’informations sur ce sujet, reportez-vous au document RFC 1878). Dans ces quatre réseaux, les six derniers chiffres binaires peuvent être utilisés pour les adresses hôtes.
+
+À l’aide d’un masque de sous-réseau de 255.255.255.192, votre réseau 192.168.123.0 devient alors les quatre réseaux 192.168.123.0, 192.168.123.64, 192.168.123.128 et 192.168.123.192. Ces quatre réseaux auraient comme adresses hôtes valides :
+
+192.168.123.1-62, 192.168.123.65-126, 192.168.123.129-190 et 192.168.123.193-254
+Nʼoubliez pas, une fois encore, que les adresses hôtes binaires comportant tous les uns ou tous les zéros ne sont pas valides. Vous ne pouvez donc pas utiliser dʼadresses dont le dernier octet est égal à 0, 63, 64, 127, 128, 191, 192 ou 255.
+
+Vous pouvez voir comment cela fonctionne en examinant deux adresses hôtes, 192.168.123.71 et 192.168.123.133. Si vous avez utilisé le masque de sous-réseau de classe C par défaut de 255.255.255.0, les deux adresses se trouvent sur le réseau 192.168.123.0.
+
+Toutefois, si vous utilisez le masque de sous-réseau de 255.255.255.192, ils se trouvent sur des réseaux différents ; 192.168.123.71 se trouve sur le réseau 192.168.123.64 et 192.168.123.133 se trouve sur le réseau 192.168.123.128.
 
 
