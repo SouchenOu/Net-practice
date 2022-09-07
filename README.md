@@ -18,12 +18,12 @@ IPv4 is the fourth version of IP, which establishes the rules for computer netwo
 
 IPv6 (Internet Protocol Version 6) was deployed in 1999 concerning that the demand for IP addresses would exceed the available supply. It allows communication and data transfer to take place over a network. IPv6 is a 128-bit IP address which supports 2^128 Internet addresses in total. The use of IPv6 not only solves the problem of limited network addresses resources but also resolves the barriers for multiple access devices to connect to the Internet. An IPv6 address could be written like this: 3ffe:1900:fe21:4545:0000:0000:0000:0000.
 
-=======================================================
+==================================================
 
-
+==================================================
 
 📫 Comme tout réseau informatique, Internet est une connexion entre de nombreux ordinateurs qui communiquent entre eux. Il est depuis longtemps devenu indispensable de diviser l’immense réseau en plusieurs et différents sous-réseaux. Pour comprendre ce qu’est le subnetting et pour savoir pourquoi il a été introduit et enfin apprendre à calculer un masque de sous-réseau, il est tout d’abord important de clarifier quelques bases sur les réseaux informatiques:
-
+===================================================
 📈 Depuis 1981, Internet fonctionne sur la base du protocole Internet (IP) : un protocole réseau qui régule les circuits de distribution des utilisateurs. Pour envoyer un paquet de données dans un réseau, l’expéditeur doit connaître l’adresse IP du destinataire.
 
 📈 Le Net ID et le Host ID sont cachés dans l’adresse IP. Il est ainsi possible d’identifier le réseau correspondant et son hôte, par exemple un PC ou une imprimante réseau. Sur la base de ces informations, les routeurs peuvent transmettre des paquets de données aux destinataires corrects.
