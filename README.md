@@ -61,5 +61,27 @@ Les 24 premiers bits (le nombre de uns dans le masque de sous-réseau) sont iden
 
 Vous savez donc maintenant, pour cet exemple utilisant un masque de sous-réseau de 255.255.255.0, que lʼID du réseau est 192.168.123.0 et que lʼadresse de lʼhôte est 0.0.0.132. Lorsqu’un paquet arrive sur le sous-réseau 192.168.123.0 (du sous-réseau local ou d’un réseau distant) et qu’il a une adresse de destination de 192.168.123.132, votre ordinateur le reçoit du réseau et le traite.
 
+Classes de réseau:
+-------------------
+
+Les classes A, B et C sont les plus courantes. Les classes D et E existent, mais ne sont pas utilisées par les utilisateurs finaux.
+
+Chacune des classes d’adresses possède un masque de sous-réseau par défaut différent. Vous pouvez identifier la classe d’une adresse IP en regardant son
+
+premier octet. Vous trouverez ci-dessous les plages dʼadresses Internet de classe A, B et C, chacune étant accompagnée dʼun exemple dʼadresse :
+
+Les réseaux de classe A utilisent un masque de sous-réseau par défaut de 255.0.0.0 et leur premier octet est compris entre 0 et 127. L’adresse 10.52.36.11 est une adresse de classe A. Son premier octet est 10, qui est une valeur comprise entre 1 et 126 inclus.
+
+Les réseaux de classe B utilisent un masque de sous-réseau par défaut de 255.255.0.0 et leur premier octet est compris entre 128 et 191. L’adresse 172.16.52.63 est une adresse de classe B. Son premier octet est 172, qui est une valeur comprise entre 128 et 191 inclus.
+
+Les réseaux de classe C utilisent un masque de sous-réseau par défaut de 255.255.255.0 et leur premier octet est compris entre 192 et 223. L’adresse 192.168.123.132 est une adresse de classe C. Son premier octet est 192, qui est une valeur comprise entre 192 et 223 inclus.
+
+Dans certains scénarios, les valeurs par défaut du masque de sous-réseau ne correspondent pas aux besoins de l’organisation pour l’une des raisons suivantes :
+
+La topologie physique du réseau
+Le nombre de réseaux (ou d’hôtes) ne correspond pas aux restrictions du masque de sous-réseau par défaut.
+
+
+
 
 
