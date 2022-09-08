@@ -187,8 +187,15 @@ Vous pouvez voir comment cela fonctionne en examinant deux adresses hôtes, 192.
 Toutefois, si vous utilisez le masque de sous-réseau de 255.255.255.192, ils se trouvent sur des réseaux différents ; 192.168.123.71 se trouve sur le réseau 192.168.123.64 et 192.168.123.133 se trouve sur le réseau 192.168.123.128.
 
 Levels:
+------
+
+📫 level 1:
 
 <img width="2560" alt="Screen Shot 2022-09-08 at 4 48 59 PM" src="https://user-images.githubusercontent.com/87101785/189167641-357d04b4-8cb5-48f7-a69b-ab4371580671.png">
+
++ In this level, we should put the computers on the same network by respecting the IP adress range.
+
+📫 level 2:
 
 
 
