@@ -28,6 +28,9 @@ TCP/IP was built to help us to determine how a specific computer should be conne
 
 An IP address is an identifier for a computer or a device on the network, every device has to have an IP address for communication purposes, An IP address consists of 2 parts: a network address and a host address, there are two versions of IP address IPv4 and IPv6:
 
+why using routers and switch:
+------------------------------
+
 what is IPV4 and IPV6:
 ----------------------
 *******************
