@@ -50,6 +50,16 @@ The main difference between public and private IP addresses is how far they reac
 
 ![Public-vs-local-IP-addresses-01](https://user-images.githubusercontent.com/87101785/189178555-71abd5fc-3fdb-4600-a08c-628eb4bb4ad9.png)
 
+Address ranges to be use by private networks are:
+
+Class A: 10.0.0.0 to 10.255.255.255
+Class B: 172.16.0.0 to 172.31.255.255
+Class C: 192.168.0.0 to 192.168.255.255
+
+The IP address 127.0.0.1 is a special-purpose IPv4 address and is called the localhost or loopback address. All computers use this address as their own, but it doesn't let computers communicate with other devices as a real IP address does.
+
+
+
 what is IPV4 and IPV6:
 ----------------------
 *******************
