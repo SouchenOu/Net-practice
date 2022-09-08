@@ -167,4 +167,6 @@ Vous pouvez voir comment cela fonctionne en examinant deux adresses hôtes, 192.
 
 Toutefois, si vous utilisez le masque de sous-réseau de 255.255.255.192, ils se trouvent sur des réseaux différents ; 192.168.123.71 se trouve sur le réseau 192.168.123.64 et 192.168.123.133 se trouve sur le réseau 192.168.123.128.
 
-
+Some ressources:
+https://www.linkedin.com/pulse/how-know-two-ip-addresses-same-network-priyanka-kumari/
+https://www.youtube.com/watch?v=ecCuyq-Wprc&list=PLSNNzog5eydt_plAtt3k_LYuIXrAS4aDZ&index=7
