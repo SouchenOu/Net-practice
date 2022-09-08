@@ -59,7 +59,6 @@ Class C: 192.168.0.0 to 192.168.255.255
 The IP address 127.0.0.1 is a special-purpose IPv4 address and is called the localhost or loopback address. All computers use this address as their own, but it doesn't let computers communicate with other devices as a real IP address does.
 
 
-
 what is IPV4 and IPV6:
 ----------------------
 *******************
@@ -227,8 +226,21 @@ level 4:
 
 <img width="2560" alt="level4" src="https://user-images.githubusercontent.com/87101785/189182933-be7c134d-5803-45f6-9c22-9df3c4e117f7.png">
 
+The difference between routers and switch:
 
+Router:
 
+1: The main objective of router is to connect various networks simultaneously.	
+2: Router is used by LAN as well as MAN.	
+3: Through the router, data is sent in the form of packets.	
+4: Router is compatible with NAT.
+
+Switch:
+
+1:While the main objective of switch is to connect various devices simultaneously.
+2:While switch is used by only LAN.
+3:While through switch data is sent in the form of  frame.
+4:While it is not compatible with NAT.
 
 
 Some ressources:
