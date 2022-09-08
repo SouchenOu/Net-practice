@@ -16,6 +16,11 @@ there are two types of networking: wired networking and wireless networking:
     *wired networking requires the use of a physical medium for transporting data.
     *wireless networking uses radio waves to transport data over the air without any cables.
 
+What's a subnet mask?
+--------------------
+
+The subnet mask is used by the TCP/IP protocol to determine whether a host is on the local subnet or on a remote network.
+
 What is TCP/IP?
 ---------------
 
