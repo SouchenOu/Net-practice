@@ -12,6 +12,15 @@ Computer networking enables devices and endpoints to be connected to each other 
 
 A network is a collection of computers, servers, mainframes, network devices, peripherals, or other devices connected to allow data sharing. An example of a network is the Internet, which connects millions of people all over the world. To the right is an example image of a home network with multiple computers and other network devices all connected.
 
+Network topologies and types of networks:
+---------------------------------------
+
+The term network topology describes the relationship of connected devices in terms of a geometric graph. Devices are represented as vertices, and their connections are represented as edges on the graph. It describes how many connections each device has, in what order, and what sort of hierarchy.
+
+Typical network configurations include bus topology, mesh topology, ring topology, star topology, tree topology, and hybrid topology.
+<img width="699" alt="network-topologies" src="https://user-images.githubusercontent.com/87101785/189166083-b74fe08d-0b9f-4b7e-8acb-5656100fff74.png">
+
+
 Types of networking:
 --------------------
 there are two types of networking: wired networking and wireless networking:
