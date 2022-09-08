@@ -10,6 +10,8 @@ What is Networking?
 
 Computer networking enables devices and endpoints to be connected to each other on a local area network (LAN) or to a larger network, such as the internet or a private wide area network (WAN). 
 
+A network is a collection of computers, servers, mainframes, network devices, peripherals, or other devices connected to allow data sharing. An example of a network is the Internet, which connects millions of people all over the world. To the right is an example image of a home network with multiple computers and other network devices all connected.
+
 Types of networking:
 --------------------
 there are two types of networking: wired networking and wireless networking:
