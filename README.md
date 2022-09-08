@@ -208,31 +208,36 @@ Levels:
 
 📫 level 1:
 
-<img width="2560" alt="Screen Shot 2022-09-08 at 4 48 59 PM" src="https://user-images.githubusercontent.com/87101785/189167641-357d04b4-8cb5-48f7-a69b-ab4371580671.png">
+<img width="1920" alt="level 11" src="https://user-images.githubusercontent.com/87101785/189197548-509ed426-d4c0-4775-80c1-a5b0941ecb1a.png">
 
 + In this level, we should put the computers on the same network by respecting the IP adress range.
 
 📫 level 2:
 
-<img width="2560" alt="level2" src="https://user-images.githubusercontent.com/87101785/189173323-9171cc51-31fd-464d-839c-511d00090e1c.png">
+<img width="1920" alt="level 22" src="https://user-images.githubusercontent.com/87101785/189197587-29bc4abd-b42d-4963-a39e-c93c52bf4359.png">
 
 level 3:
 
-<img width="2560" alt="level3" src="https://user-images.githubusercontent.com/87101785/189180833-2ba9eb95-8060-49b9-a51e-3461ce3fd2eb.png">
+<img width="1920" alt="level 33" src="https://user-images.githubusercontent.com/87101785/189197617-2871624c-1c74-4f6a-bd72-60def216dc3b.png">
 
 A network switch forwards data packets between devices. Switches send packets directly to devices, rather than sending them to networks like a router does.
 
 level 4:
 
-<img width="2560" alt="level4" src="https://user-images.githubusercontent.com/87101785/189182933-be7c134d-5803-45f6-9c22-9df3c4e117f7.png">
+<img width="1920" alt="level 44" src="https://user-images.githubusercontent.com/87101785/189197633-08504306-fdb1-43d9-853d-4f31faf64779.png">
+
 
 level 5:
 
-<img width="2560" alt="level5" src="https://user-images.githubusercontent.com/87101785/189191377-a5be3815-5c15-4bb5-a6d6-4bd4c625cf1a.png">
+<img width="1920" alt="level 55" src="https://user-images.githubusercontent.com/87101785/189197667-dd36c2e2-fe99-4b1e-89a9-5c544de9f6d9.png">
 
 level 6 :
 
-<img width="2560" alt="level 6 " src="https://user-images.githubusercontent.com/87101785/189192959-be6e85e3-0946-4ed5-b8e4-fb86856e9f15.png">
+<img width="1920" alt="level 66" src="https://user-images.githubusercontent.com/87101785/189197700-1f8e4a84-83c0-4fad-998f-05bc8013d0c4.png">
+
+level 7:
+
+<img width="1920" alt="level 77" src="https://user-images.githubusercontent.com/87101785/189197734-a3bda94a-0ff7-428a-a8f0-57fb46438573.png">
 
 
 The difference between routers and switch:
