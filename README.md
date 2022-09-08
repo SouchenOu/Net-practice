@@ -5,7 +5,20 @@ Ce projet a pour but de vous faire découvrir le réseau par des cas pratiques.
 👨‍ My solution and basic explanantion on Net_Practice and networking basics:
 -----------------------------------------------------------------------------
 
-----IPV4 and IPV6:
+What is Networking?
+-------------------
+
+Computer networking enables devices and endpoints to be connected to each other on a local area network (LAN) or to a larger network, such as the internet or a private wide area network (WAN). 
+
+Types of networking:
+--------------------
+there are two types of networking: wired networking and wireless networking:
+    *wired networking requires the use of a physical medium for transporting data.
+    *wireless networking uses radio waves to transport data over the air without any cables.
+
+
+what is IPV4 and IPV6:
+----------------------
 *******************
 
 The Internet Protocol (IP) is one of the most important communication protocols in the Internet Protocol Suite (IPS), which is used for routing and addressing packets for networking devices such as computers, laptops and fiber switches across a single network or a series of interconnected networks. There are currently two versions of Internet Protocol: IPv4 (IP version 4) and IPv6 (IP version 6). What do IPv4 and IPv6 mean? Which is faster when we are working or gaming? This article will take you to find the answer.
