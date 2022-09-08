@@ -42,6 +42,14 @@ An IP address is an identifier for a computer or a device on the network, every 
 why using routers and switch:
 ------------------------------
 
+
+Key differences between public and private IP addresses
+--------------------------------------------------------
+
+The main difference between public and private IP addresses is how far they reach, and what they’re connected to. A public IP address identifies you to the wider internet so that all the information you’re searching for can find you. A private IP address is used within a private network to connect securely to other devices within that same network.
+
+![Public-vs-local-IP-addresses-01](https://user-images.githubusercontent.com/87101785/189178555-71abd5fc-3fdb-4600-a08c-628eb4bb4ad9.png)
+
 what is IPV4 and IPV6:
 ----------------------
 *******************
@@ -197,7 +205,7 @@ Levels:
 
 📫 level 2:
 
-
+<img width="2560" alt="level2" src="https://user-images.githubusercontent.com/87101785/189173323-9171cc51-31fd-464d-839c-511d00090e1c.png">
 
 
 
