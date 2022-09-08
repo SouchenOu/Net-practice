@@ -16,6 +16,12 @@ there are two types of networking: wired networking and wireless networking:
     *wired networking requires the use of a physical medium for transporting data.
     *wireless networking uses radio waves to transport data over the air without any cables.
 
+What is TCP/IP?
+---------------
+
+TCP/IP was built to help us to determine how a specific computer should be connected to the internet and how data should be transmitted between them, The purpose is to allow communication over large distances.
+
+An IP address is an identifier for a computer or a device on the network, every device has to have an IP address for communication purposes, An IP address consists of 2 parts: a network address and a host address, there are two versions of IP address IPv4 and IPv6:
 
 what is IPV4 and IPV6:
 ----------------------
