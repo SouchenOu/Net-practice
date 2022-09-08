@@ -230,6 +230,9 @@ level 5:
 
 <img width="2560" alt="level5" src="https://user-images.githubusercontent.com/87101785/189191377-a5be3815-5c15-4bb5-a6d6-4bd4c625cf1a.png">
 
+level 6 :
+
+<img width="2560" alt="level 6 " src="https://user-images.githubusercontent.com/87101785/189192959-be6e85e3-0946-4ed5-b8e4-fb86856e9f15.png">
 
 
 The difference between routers and switch:
