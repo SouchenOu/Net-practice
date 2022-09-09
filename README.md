@@ -249,6 +249,10 @@ level 9:
 
 <img width="2204" alt="level 99" src="https://user-images.githubusercontent.com/87101785/189334723-682cb447-6e16-47ff-a349-3f320079de18.png">
 
+level 10:
+
+
+<img width="2204" alt="level 10" src="https://user-images.githubusercontent.com/87101785/189340849-7f336864-920d-416b-8ca4-f3e5a39e52fb.png">
 
 The difference between routers and switch:
 -------------------------------------------
