@@ -23,6 +23,7 @@ Typical network configurations include bus topology, mesh topology, ring topolog
 
 Types of networking:
 --------------------
+
 there are two types of networking: wired networking and wireless networking:
     *wired networking requires the use of a physical medium for transporting data.
     *wireless networking uses radio waves to transport data over the air without any cables.
@@ -221,6 +222,7 @@ computer B uses the subnet mask to find that the computer c is remote and the co
 
 = when computer A know that computer B is local how does the computer A communicate with B (How does the computer B communicate localy):
 --------
+
 *computer A ask for Mac address of computer B
 (Mac address used for local communication but ip address used for remote communication)
 
