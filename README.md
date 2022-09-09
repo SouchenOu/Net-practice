@@ -61,7 +61,6 @@ Class C: 192.168.0.0 to 192.168.255.255
 
 The IP address 127.0.0.1 is a special-purpose IPv4 address and is called the localhost or loopback address. All computers use this address as their own, but it doesn't let computers communicate with other devices as a real IP address does.
 
-
 what is IPV4 and IPV6:
 ----------------------
 *******************
@@ -205,6 +204,35 @@ Nʼoubliez pas, une fois encore, que les adresses hôtes binaires comportant tou
 Vous pouvez voir comment cela fonctionne en examinant deux adresses hôtes, 192.168.123.71 et 192.168.123.133. Si vous avez utilisé le masque de sous-réseau de classe C par défaut de 255.255.255.0, les deux adresses se trouvent sur le réseau 192.168.123.0.
 
 Toutefois, si vous utilisez le masque de sous-réseau de 255.255.255.192, ils se trouvent sur des réseaux différents ; 192.168.123.71 se trouve sur le réseau 192.168.123.64 et 192.168.123.133 se trouve sur le réseau 192.168.123.128.
+
+
+== How does a computer communicate locally and remotely?
+
++What different pieces of informations and networking devices will be used to communicate in two different situation localy and remotly:
+*physical address.
+*ipv4 address.
+*subnet mask
+*default gateway
+*Dns servers
+
+---computer A wants to communicate with computer B and also want to communicate with  c over the internet.
+
+computer B uses the subnet mask to find that the computer c is remote and the computer A is local.
+
+= when computer A know that computer B is local how does the computer A communicate with B (How does the computer B communicate localy):
+--------
+*computer A ask for Mac address of computer B
+(Mac address used for local communication but ip address used for remote communication)
+
++switch with two devices used for local communication, but with more devices we can use it in a remote communications
+
+
+<img width="1124" alt="Screen Shot 2022-09-09 at 5 17 56 PM" src="https://user-images.githubusercontent.com/87101785/189395698-77088775-ef23-4bea-adb0-25b9f30a9b07.png">
+
+
+
+
+
 
 Levels:
 ------
