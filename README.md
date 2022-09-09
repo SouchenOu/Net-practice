@@ -39,9 +39,12 @@ TCP/IP was built to help us to determine how a specific computer should be conne
 
 An IP address is an identifier for a computer or a device on the network, every device has to have an IP address for communication purposes, An IP address consists of 2 parts: a network address and a host address, there are two versions of IP address IPv4 and IPv6:
 
-why using routers and switch:
-------------------------------
+What is the different between mac address and ip address:
+--------------------------------------------------------
 
+1:MAC Address helps in simply identifying the device but IP Address identifies the connection of the device on the network.
+
+2:	MAC Address of computer cannot be changed with time and environment but IP Address modifies with the time and environment.
 
 Key differences between public and private IP addresses
 --------------------------------------------------------
