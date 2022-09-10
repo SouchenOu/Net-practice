@@ -77,6 +77,12 @@ IPv4 is the fourth version of IP, which establishes the rules for computer netwo
 IPv6 (Internet Protocol Version 6) was deployed in 1999 concerning that the demand for IP addresses would exceed the available supply. It allows communication and data transfer to take place over a network. IPv6 is a 128-bit IP address which supports 2^128 Internet addresses in total. The use of IPv6 not only solves the problem of limited network addresses resources but also resolves the barriers for multiple access devices to connect to the Internet. An IPv6 address could be written like this: 3ffe:1900:fe21:4545:0000:0000:0000:0000.
 
 ==================================================
+What is DHCP and how does it work?
+----------------------------------
+
+DHCP is an under-the-covers mechanism that automates the assignment of IP addresses to fixed and mobile hosts that are connected wired or wirelessly.
+
+When a device wants access to a network that’s using DHCP, it sends a request for an IP address that is picked up by a DHCP server. The server responds be delivering an IP address to the device, then monitors the use of the address and takes it back after a specified time or when the device shuts down. The IP address is then returned to the pool of addresses managed by the DHCP server to be reassigned to another device as it seeks access to the network.
 
 ==================================================
 
