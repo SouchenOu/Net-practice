@@ -214,8 +214,13 @@ level 8:
 
 <img width="1920" alt="level 88" src="https://user-images.githubusercontent.com/87101785/189202387-44dd32cf-323e-4fbc-81ec-91e1fb3dd402.png">
 
+*Private
 
+IP Address are for private networks.It could be of 10 or 100 or may be thousands of thousands networks. Which will use same type of IP Addresses and that is completely fine because it’s a private network.
 
+*Public
+
+IP Addresses of Web Servers. when we reach out a websites like Google, Yahoo , YouTube , Microsoft , Fb, they have hundreds of ip address to distribute all the traffic coming in. So it has to be unique.
 level 9:
 
 <img width="2204" alt="level 99" src="https://user-images.githubusercontent.com/87101785/189334723-682cb447-6e16-47ff-a349-3f320079de18.png">
