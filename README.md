@@ -187,6 +187,10 @@ Levels:
 
 <img width="1920" alt="level 22" src="https://user-images.githubusercontent.com/87101785/189197587-29bc4abd-b42d-4963-a39e-c93c52bf4359.png">
 
+IP Addresses are Unique:
+IP Address of a system in a local area network should be unique. If you have 100 devices on a same network better make sure they do not have same IP Address.
+If we go to the public area network same again we have to make sure that the IP Address that a web server has no other web server or any other network device in public network should have.
+
 level 3:
 
 <img width="1920" alt="level 33" src="https://user-images.githubusercontent.com/87101785/189197617-2871624c-1c74-4f6a-bd72-60def216dc3b.png">
