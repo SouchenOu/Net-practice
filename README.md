@@ -183,6 +183,14 @@ Levels:
 
 + In this level, we should put the computers on the same network by respecting the IP adress range.
 
++IP Addresses Identifies a Device on a Network:
+
+Yess.. it makes sense too. Once you have a subnet mask you will be able to identify a network Id and Host Id in an IP Address.
+
+Network Id and Host Id :
+
+An IP Address has Network Id and Host Id. Network Id/Host Id could be of any number of bits depending on the class and subnet mask.
+
 📫 level 2:
 
 <img width="1920" alt="level 22" src="https://user-images.githubusercontent.com/87101785/189197587-29bc4abd-b42d-4963-a39e-c93c52bf4359.png">
